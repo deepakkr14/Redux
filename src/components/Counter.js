@@ -6,10 +6,10 @@ const dispatch= useDispatch();
  const counter= useSelector(state=>state.counter)
   const toggleCounterHandler = () => {}; 
 const incrementC=()=>{
-  dispatch( {type:"INCREMENT"} )
+  dispatch( {type:"INCREMENT",payload:5} )
 }
 const decrementC=()=>{
-dispatch( { type: "DECREMENT" })
+dispatch( { type: "DECREMENT" ,payload:5})
 }
   return (
     <main className={classes.counter}>
