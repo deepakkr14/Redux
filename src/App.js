@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Profile from './components/UserProfile'
 import Counter from './components/Counter';
 import { useDispatch, useSelector } from 'react-redux';
-import { AuthActions } from './Store/store'; 
+import { AuthActions } from './Store/AuthSlice'; 
 function App() {
   
   const dispatch= useDispatch();
